@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.com.vishal.scriet" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="app.com.vishal.scriet.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="app.com.vishal.scriet.AboutActivity"
+            android:label="@string/title_activity_about"
+
+            android:parentActivityName="app.com.vishal.scriet.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.vishal.scriet.MainActivity" />
+        </activity>
+        <activity
+            android:name="app.com.vishal.scriet.DepartmentActivity"
+            android:label="@string/title_activity_department"
+
+            android:parentActivityName="app.com.vishal.scriet.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.vishal.scriet.MainActivity" />
+        </activity>
+        <activity
+            android:name="app.com.vishal.scriet.ResultsActivity"
+            android:label="@string/title_activity_results"
+
+            android:parentActivityName="app.com.vishal.scriet.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.vishal.scriet.MainActivity" />
+        </activity>
+        <activity
+            android:name="app.com.vishal.scriet.AdmissionActivity"
+            android:label="@string/title_activity_admission"
+
+            android:parentActivityName="app.com.vishal.scriet.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.vishal.scriet.MainActivity" />
+        </activity>
+        <activity
+            android:name="app.com.vishal.scriet.ContactActivity"
+            android:label="@string/title_activity_contact"
+
+            android:parentActivityName="app.com.vishal.scriet.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.vishal.scriet.MainActivity" />
+        </activity>
+        <activity
+            android:name="app.com.vishal.scriet.GalleryActivity"
+            android:label="@string/title_activity_gallery"
+
+            android:parentActivityName="app.com.vishal.scriet.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.vishal.scriet.MainActivity" />
+        </activity>
+        <activity
+            android:name="app.com.vishal.scriet.CsActivity"
+            android:label="@string/title_activity_cs"
+
+            android:parentActivityName="app.com.vishal.scriet.DepartmentActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.vishal.scriet.DepartmentActivity" />
+        </activity>
+        <activity
+            android:name="app.com.vishal.scriet.ItActivity"
+            android:label="@string/title_activity_it"
+
+            android:parentActivityName="app.com.vishal.scriet.DepartmentActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.vishal.scriet.DepartmentActivity" />
+        </activity>
+        <activity
+            android:name="app.com.vishal.scriet.ChActivity"
+            android:label="@string/title_activity_ch"
+
+            android:parentActivityName="app.com.vishal.scriet.DepartmentActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.vishal.scriet.DepartmentActivity" />
+        </activity>
+        <activity
+            android:name="app.com.vishal.scriet.EcActivity"
+            android:label="@string/title_activity_ec"
+
+            android:parentActivityName="app.com.vishal.scriet.DepartmentActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.vishal.scriet.DepartmentActivity" />
+        </activity>
+        <activity
+            android:name="app.com.vishal.scriet.EiActivity"
+            android:label="@string/title_activity_ei"
+
+            android:parentActivityName="app.com.vishal.scriet.DepartmentActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.vishal.scriet.DepartmentActivity" />
+        </activity>
+        <activity
+            android:name="app.com.vishal.scriet.MeActivity"
+            android:label="@string/title_activity_me"
+
+            android:parentActivityName="app.com.vishal.scriet.DepartmentActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.vishal.scriet.DepartmentActivity" />
+        </activity>
+        <activity
+            android:name="app.com.vishal.scriet.AgActivity"
+            android:label="@string/title_activity_ag"
+
+            android:parentActivityName="app.com.vishal.scriet.DepartmentActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.vishal.scriet.DepartmentActivity" />
+        </activity>
+        <activity
+            android:name="app.com.vishal.scriet.AsActivity"
+            android:label="@string/title_activity_as"
+
+            android:parentActivityName="app.com.vishal.scriet.DepartmentActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.vishal.scriet.DepartmentActivity" />
+        </activity>
+        <activity
+            android:name="app.com.vishal.scriet.MbaActivity"
+            android:label="@string/title_activity_mba"
+
+            android:parentActivityName="app.com.vishal.scriet.DepartmentActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.vishal.scriet.DepartmentActivity" />
+        </activity>
+        <activity
+            android:name="app.com.vishal.scriet.GeneralActivity"
+            android:label="@string/title_activity_general"
+
+            android:parentActivityName="app.com.vishal.scriet.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.vishal.scriet.MainActivity" />
+        </activity>
+        <activity
+            android:name="app.com.vishal.scriet.InformationActivity"
+            android:label="@string/title_activity_information"
+
+            android:parentActivityName="app.com.vishal.scriet.GeneralActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.vishal.scriet.GeneralActivity" />
+        </activity>
+        <activity
+            android:name="app.com.vishal.scriet.HostelActivity"
+            android:label="@string/title_activity_hostel"
+
+            android:parentActivityName="app.com.vishal.scriet.GeneralActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.vishal.scriet.GeneralActivity" />
+        </activity>
+        <activity
+            android:name="app.com.vishal.scriet.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="app.com.vishal.scriet.AuthoritiesActivity"
+            android:label="@string/title_activity_authorities"
+            android:parentActivityName="app.com.vishal.scriet.CsActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.vishal.scriet.CsActivity" />
+        </activity>
+        <activity
+            android:name="app.com.vishal.scriet.MessageActivity"
+            android:label="@string/title_activity_message"
+            android:theme="@style/Animation.AppCompat.DropDownUp"
+            android:parentActivityName="app.com.vishal.scriet.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.vishal.scriet.MainActivity" />
+        </activity>
+        <activity
+            android:name="app.com.vishal.scriet.VcActivity"
+            android:label="@string/title_activity_vc"
+            android:theme="@style/Animation.AppCompat.DropDownUp"
+            android:parentActivityName="app.com.vishal.scriet.MessageActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.vishal.scriet.MessageActivity" />
+        </activity>
+        <activity
+            android:name="app.com.vishal.scriet.DirectorActivity"
+            android:label="@string/title_activity_director"
+            android:theme="@style/Animation.AppCompat.DropDownUp"
+            android:parentActivityName="app.com.vishal.scriet.MessageActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.vishal.scriet.MessageActivity" />
+        </activity>
+        <activity
+            android:name="app.com.vishal.scriet.NoticeActivity"
+            android:label="@string/title_activity_notice"
+            android:screenOrientation="portrait"
+            android:theme="@style/Animation.AppCompat.DropDownUp"
+            android:parentActivityName="app.com.vishal.scriet.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.vishal.scriet.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

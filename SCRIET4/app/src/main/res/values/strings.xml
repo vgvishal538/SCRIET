@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">SCRIET</string>
+    <string name="hello_world" translatable="false">Sir Chhotu Ram Institute of Engineering &amp; Technology
+        was established in 2002 with the aim of providing quality education in the field of Engineering and Technology.
+        The Institute is a constituent part of the Ch. Charan Singh University, Meerut. The Institute started functioning
+        with the admission of students in the B.Tech. courses in seven branches : Electronics &amp; Communication Engineering,
+        Mechanical Engineering, Agricuture Engineering, and Computer Sciences , Information Technology,Chemical Engg,
+        Electronics &amp; Instrumentation. From the academic session 2004 one more B.Tech. branch Electronics &amp; Instrumentation
+        Engineering added to the academic programme of the Institute. In July 2005, a new brach Information Technology was
+        introduced by fabricating the branch Computer Science &amp; information technology.From academic session 2011-2012,the
+        institute has also been entrusted to run M.C.A. programme which was being conducated in the University from 2004.
+        Engineering education &amp; research is ever demanding field of study since the oldest civilization.industrial deveof
+        nations was made possible by the movement of wheel,but search is on to improve the efficiency is wheel.We have reached
+        from 8% to 40% and the search for still higher efficiency is more vigorously pursued today.The role of engineer is
+        not confined to industries, service centers or workshops but has gone beyond.The half-life period of engineering
+        education has been greatly reduced due to explosion of knowledge and computer database created by R &amp; D.
+        There is an urgent need to keep pace with the development by re-engineering with the course curriculum.
+        Besides seven Engineering Departments Computer Science Engineering, Information Technology, Electronics &amp; Communication,
+        Electronice &amp; Instrumentation, Mechanical Engineering, Chemical Engineering and Agriculture Engineering and a
+        Division of Applied Science is also been here.</string>
+    <string name="title_activity_about" translatable="false">About</string>
+    <string name="title_activity_department">Department</string>
+    <string name="title_section1">COMPUTER SCIENCE</string>
+    <string name="title_section2">INFORMATION TECHNOLOGY</string>
+    <string name="title_section3">CHEMICAL ENGINEERING</string>
+    <string name="title_section4">MECHNICAL ENGINEERING</string>
+    <string name="title_section5">ELECTRONICS COMMUNICATION</string>
+    <string name="title_section6">ELECTRONICS INTRUMENTATON</string>
+    <string name="title_section7">AGRICULTURE ENGINEERING</string>
+    <string name="title_section8">M.C.A,M.B.A</string>
+    <string name="title_section9">APPLIED SCIENCES</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_results">Results</string>
+    <string name="title_activity_admission">Admission</string>
+    <string name="title_activity_contact">Contact</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="title_activity_cs">COMPUTER SCIENCE</string>
+    <string name="title_activity_it">INFORMATION TECHNOLOGY</string>
+    <string name="title_activity_ch">CHEMICAL ENGINEERING</string>
+    <string name="title_activity_ec">ELECTRONICS &amp; COMMUNICATION </string>
+    <string name="title_activity_ei">ELECTRONICS &amp; INSTRUMENTATION</string>
+    <string name="title_activity_me">MECHANICAL ENGINEERING</string>
+    <string name="title_activity_ag">AGRICULTURE ENGINEERING</string>
+    <string name="title_activity_as">APPLIED SCIENCE</string>
+    <string name="title_activity_mba">M.B.A &amp; M.C.A</string>
+    <string name="title_activity_general">General</string>
+    <string name="title_activity_information">Information</string>
+    <string name="title_activity_hostel">FEE STRUCTURE</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_authorities">Authorities</string>
+    <string name="title_activity_message">Messages</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_vc">Vc</string>
+    <string name="title_activity_director">Director</string>
+    <string name="title_activity_notice">NOTICE BOARD</string>
+
+</resources>

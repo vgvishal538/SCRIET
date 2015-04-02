@@ -1,0 +1,153 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/clg"
+    android:fillViewport="true"
+    android:fadeScrollbars="true"
+    android:scrollbars="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#90000000"
+
+
+     tools:context=".MainActivity">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOTICE BOARD"
+        android:textSize="15sp"
+        android:layout_margin="10dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_selector"
+        android:drawableLeft="@drawable/board"
+        android:id="@+id/button_notice"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABOUT US"
+        android:layout_margin="10dp"
+        android:textColor="#ffffff"
+        android:drawableLeft="@drawable/infonew"
+        android:layout_below="@+id/button_notice"
+        android:background="@drawable/button_selector"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+
+        android:id="@+id/button_about" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONTACT US"
+        android:layout_margin="10dp"
+        android:textColor="#ffffff"
+        android:id="@+id/button_contact"
+        android:drawableLeft="@drawable/cnew"
+        android:textSize="15sp"
+        android:background="@drawable/button_selector"
+        android:layout_below="@+id/button_about"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GALLERY"
+        android:layout_margin="10dp"
+        android:textColor="#ffffff"
+        android:id="@+id/button_gallery"
+        android:drawableLeft="@drawable/photonew"
+        android:layout_below="@+id/button_contact"
+        android:textSize="15sp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button_selector"
+        android:layout_alignParentEnd="true"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEW ADMISSION"
+        android:layout_margin="10dp"
+        android:textColor="#ffffff"
+        android:id="@+id/button_admission"
+        android:drawableLeft="@drawable/bnew"
+        android:textSize="15sp"
+        android:background="@drawable/button_selector"
+        android:layout_below="@+id/button_gallery"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+         />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESULTS"
+        android:layout_margin="10dp"
+        android:textColor="#ffffff"
+        android:id="@+id/button_result"
+        android:drawableLeft="@drawable/good"
+        android:textSize="15sp"
+        android:background="@drawable/button_selector"
+        android:layout_below="@+id/button_admission"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DEPARTMENTS"
+        android:layout_margin="10dp"
+        android:textColor="#ffffff"
+        android:id="@+id/button_departments"
+        android:drawableLeft="@drawable/dnew"
+        android:layout_below="@+id/button_result"
+        android:textSize="15sp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button_selector"
+        android:layout_alignParentEnd="true"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GENERAL INFO"
+        android:layout_margin="10dp"
+        android:textColor="#ffffff"
+        android:id="@+id/button_general"
+        android:drawableLeft="@drawable/generalnew"
+        android:textSize="15sp"
+        android:background="@drawable/button_selector"
+        android:layout_below="@+id/button_departments"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AUTHORITIES"
+        android:textSize="15sp"
+        android:layout_margin="10dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_selector"
+        android:drawableLeft="@drawable/mess"
+        android:id="@+id/button_message"
+        android:layout_below="@+id/button_general"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+
+</RelativeLayout>
+</ScrollView>

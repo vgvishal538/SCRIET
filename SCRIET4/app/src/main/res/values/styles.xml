@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+
+
+    </style>
+
+
+
+    <attr name="textAppearanceLarge" format="reference" />
+    3	<!-- Text color, typeface, size, and style for "medium" text. Defaults to primary text color. -->
+    4	<attr name="textAppearanceMedium" format="reference" />
+    5	<!-- Text color, typeface, size, and style for "small" text. Defaults to secondary text color. -->
+    6	<attr name="textAppearanceSmall" format="reference" />
+
+
+</resources>
